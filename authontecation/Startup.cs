@@ -55,7 +55,7 @@ namespace authontecation
             services.AddIdentity<ApplicationUser,IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
-            services.AddScoped<IEmployee,EmployeeRepo>();
+            
             services.AddScoped<IApplicationRepo, ApplicationRepo>();
             //authontecation
 

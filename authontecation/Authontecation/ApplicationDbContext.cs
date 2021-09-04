@@ -15,7 +15,7 @@ namespace authontecation.Authontecation
         {
 
         }
-        public DbSet<Employee> Employees { get; set; }
+        
         public DbSet<application> applications { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
